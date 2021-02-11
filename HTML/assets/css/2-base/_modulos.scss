@@ -224,13 +224,14 @@
 .content-container{
     width: 100%;
     height: calc(100vh - 122px);
+    height: auto;
     max-width: 1920px;
     margin: auto;
     position: relative;
     overflow: auto;
     @include respond-to-min(750){
         padding-left: 186px;
-        height: calc(100vh - 69px);
+        height: auto;
     }
     &.player-open{
         height: calc(100vh - 176px);

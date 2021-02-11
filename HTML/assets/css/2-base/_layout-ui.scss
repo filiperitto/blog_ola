@@ -1,5 +1,5 @@
 body{
-    overflow: hidden;
+    //overflow: hidden;
 }
 
 // Header Section ::::
@@ -271,32 +271,13 @@ header {
 .inv-modal{
 
 }
-.hero{
-    overflow: auto;
-    header{
-        background: transparent;
-        &.fixed-top{
-            background: #202020;
-        }
-    }
-    .main{
-        padding-top: 0;
-    }
-    .content-container{
-        height: auto;
-        overflow: inherit;
-        &.player-open{
-            height: auto;
-            padding-bottom: 80px;
-        }
-
-    }
-}
 .main{
     width: 100%;
-    padding: 62px 0;
+    padding: 62px 0 0;
     height: auto;
     position: relative;
+    display: flex;
+    flex-direction: column-reverse;
     @include respond-to-min(750){
         padding: 0;
         padding-top: 69px;
@@ -304,8 +285,8 @@ header {
 }
 .sidebar{
     width: 100%;
-    height: 60px;
-    position: fixed;
+    height: auto;
+    //position: fixed;
     bottom: 0px;
     left: 0px;
     z-index: 98;
@@ -314,6 +295,7 @@ header {
     @include respond-to-min(750){
         width: 186px;
         height: 100%;
+        position: fixed;
         top: 0;
         bottom: auto;
         padding-top: 69px;
@@ -350,9 +332,9 @@ header {
             padding: 0;
             justify-content: space-between;
             align-items: center;
+            flex-direction: column;
+            justify-content: start;
             @include respond-to-min(750){
-                flex-direction: column;
-                justify-content: start;
             }
             h5{
                 width: 100%;
@@ -361,7 +343,7 @@ header {
                 font-size: 16px;
                 color: #A4A4A4;
                 font-weight: 600;
-                padding: 10px 20px 0;
+                padding: 10px 20px;
                 text-align: left;
             }
             li{
@@ -371,6 +353,20 @@ header {
                 padding: 0;
                 @include respond-to-min(750){
                     height: auto;
+                }
+                &.catego-li{
+                    a{
+                        .wrappe-menu{
+                            width: calc(90%);
+                            border-top: 1px solid #ffffff36;
+                            margin: auto;
+                            padding: 10px 0;
+                            svg{
+                                width: 10px;
+                                margin-left: 5px;
+                            }
+                        }
+                    }
                 }
                 a{
                     width: 100%;
@@ -439,6 +435,11 @@ header {
                         justify-content: center;
                         align-items: center;
                         flex-direction: column;
+                        
+                        flex-direction: row;
+                        align-items: center;
+                        justify-content: flex-start;
+                        padding: 12px 20px;
                         &.add-menu{
                             span{
                                 font-size: 12px;
@@ -452,6 +453,8 @@ header {
                         }
                         svg{
                             height: 16px;
+                            width: 20px;
+                            margin-right: 10px;
                             @include respond-to-min(750){
                                 width: 20px;
                                 margin-right: 10px;
@@ -466,6 +469,8 @@ header {
                             font-size: 11px;
                             padding-top: 2px;
                             font-weight: normal;
+
+                            font-size: 15px;
                             @include respond-to-min(750){
                                 font-size: 15px;
                             }
