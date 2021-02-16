@@ -1,0 +1,1857 @@
+.light-mode {
+    $text-primary: #030303;
+    $text-secondary: #606060;
+    background: #FAFAFA;
+
+    section {
+
+        .module-title {
+            h2 {
+                color: $text-primary;
+            }
+        }
+    }
+
+    &.hero {
+        header {
+            .logo {
+                svg {
+                    path {
+
+                        &:nth-child(13),
+                        &:nth-child(14),
+                        &:nth-child(15),
+                        &:nth-child(16),
+                        &:nth-child(17),
+                        &:nth-child(18),
+                        &:nth-child(19),
+                        &:nth-child(20),
+                        &:nth-child(21),
+                        &:nth-child(22),
+                        &:nth-child(23) {
+                            fill: #fff;
+
+                            @include respond-to-min(750) {
+                                fill: #606060;
+                            }
+                        }
+                    }
+                }
+            }
+
+            background: transparent;
+
+            .component-box {
+                .topbar-action {
+
+                    .agregar-canal,
+                    .criar-canal {
+                        span {
+                            color: #fff;
+                        }
+                    }
+
+                    svg {
+
+                        path,
+                        ellipse,
+                        rect {
+                            fill: #fff;
+                        }
+                    }
+                }
+            }
+
+            &.fixed-top {
+                .logo {
+                    svg {
+                        path {
+
+                            &:nth-child(13),
+                            &:nth-child(14),
+                            &:nth-child(15),
+                            &:nth-child(16),
+                            &:nth-child(17),
+                            &:nth-child(18),
+                            &:nth-child(19),
+                            &:nth-child(20),
+                            &:nth-child(21),
+                            &:nth-child(22),
+                            &:nth-child(23) {
+                                fill: #606060;
+                            }
+                        }
+                    }
+                }
+
+                .component-box {
+                    .topbar-action {
+
+                        .agregar-canal,
+                        .criar-canal {
+                            span {
+                                color: #606060;
+                            }
+                        }
+
+                        svg {
+
+                            path,
+                            ellipse,
+                            rect {
+                                fill: #606060;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+
+    .preloader {
+        background: #fff;
+    }
+
+    p {
+        color: #606060;
+    }
+
+    header {
+        background: $white;
+
+        &.fixed-top {
+            background: #ffffff !important;
+        }
+
+        .logo {
+
+            svg {
+                path {
+
+                    &:nth-child(13),
+                    &:nth-child(14),
+                    &:nth-child(15),
+                    &:nth-child(16),
+                    &:nth-child(17),
+                    &:nth-child(18),
+                    &:nth-child(19),
+                    &:nth-child(20),
+                    &:nth-child(21),
+                    &:nth-child(22),
+                    &:nth-child(23) {
+                        fill: #606060;
+                    }
+                }
+            }
+        }
+
+        .component-box {
+            .topbar-action {
+
+                .agregar-canal,
+                .criar-canal {
+                    span {
+                        color: #606060;
+                    }
+                }
+
+                svg {
+
+                    path,
+                    ellipse,
+                    rect {
+                        fill: #606060;
+                    }
+                }
+
+                .wrapper-profile {
+                    background: url(../img/placeholder-profile-light.png) no-repeat top center;
+                    background-size: cover;
+                }
+            }
+        }
+    }
+
+    .dropmenu-header {
+        box-shadow: 0px 3px 5px rgba(0, 0, 0, 0.15);
+        border: 1px solid #ddd;
+
+        ul {
+            background: #fff;
+
+            li {
+                border-bottom: 1px solid #ddd;
+
+                a {
+                    &:hover {
+                        background: #e2e2e2;
+                    }
+
+                    svg {
+                        path {
+                            fill: #606060 !important;
+                        }
+                    }
+
+                    span {
+                        color: #606060;
+                    }
+                }
+            }
+        }
+    }
+
+    .sidebar {
+        background: $white;
+
+        nav {
+            ul {
+                li {
+                    a {
+                        &.active {
+                            background: #f4f4f4;
+
+                            .wrappe-menu {
+                                svg {
+                                    path {
+                                        fill: #E52321;
+                                    }
+                                }
+
+                                span {
+                                    color: #606060;
+                                }
+
+                            }
+                        }
+
+                        &.disabled {
+                            cursor: inherit;
+
+                            .wrappe-menu {
+                                span {
+                                    color: #dbdbdb;
+                                }
+
+                                svg {
+                                    path {
+                                        fill: #dbdbdb;
+                                    }
+                                }
+                            }
+
+                            &:hover {
+                                background: #fff;
+
+                                .wrappe-menu {
+                                    span {
+                                        color: #dbdbdb;
+                                    }
+
+                                    svg {
+                                        path {
+                                            fill: #dbdbdb;
+                                        }
+                                    }
+                                }
+                            }
+                        }
+
+                        &:hover {
+                            background: #E2E2E2;
+
+                            .wrappe-menu {
+                                svg {
+                                    path {
+                                        fill: #E52321;
+                                    }
+                                }
+
+                                span {
+                                    color: #606060;
+                                }
+                            }
+                        }
+
+                        .wrappe-menu {
+                            span {
+                                color: #606060;
+                            }
+
+                            svg {
+                                path {
+                                    fill: #606060
+                                }
+                            }
+                        }
+                    }
+                }
+
+                h5 {
+                    color: $gray;
+                }
+
+                hr {
+                    border-color: #DBDBDB;
+                }
+            }
+        }
+
+        hr {
+            border-color: #4c4c4c;
+        }
+
+    }
+
+    #ola-stories {
+        box-shadow: 0px 2px 3px rgba(0, 0, 0, 0.15);
+
+        //background: #181818;
+        @include respond-to-min(750) {
+            border: none;
+            box-shadow: none;
+        }
+
+        .timeline {
+            ul {
+                li {
+                    .twrapper {
+                        .cta-ola {
+                            .username {
+                                color: #000;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+
+    .modulo-hero {
+        .transition-canvas {
+            @include linearGradientTopBottom(rgba(#FAFAFA, 0), #FAFAFA)
+        }
+    }
+
+    .modulo-generos {
+        .wrappe-generos {
+            ul {
+                li {
+                    .genero-card {
+
+                        &:hover {
+                            span {
+                                color: #fff;
+                            }
+                        }
+
+                        span {
+                            background: #fff;
+                            color: #606060;
+                        }
+                    }
+                }
+            }
+        }
+    }
+
+    .modulo-episodios {
+        .wrapper-episodios {
+            ul {
+                li {
+                    .text-wrapper {
+                        color: $text-primary;
+                    }
+
+                    .footer-episodio {
+                        .title {
+                            p {
+                                color: $text-secondary;
+                            }
+                        }
+                    }
+                }
+
+            }
+        }
+    }
+
+    .modulo-miniplayer {
+        .wrapper-miniplayer {
+            ul {
+                li {
+                    .episode-card {
+                        .player-cont {
+                            .epi-name {
+                                color: $text-primary;
+
+                            }
+
+                            .pod-name {
+                                p {
+                                    color: $text-secondary;
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+
+    .modulo-list-canais {
+        .wrapper-canais {
+            ul {
+                li {
+                    .title-canal {
+                        .text-wrapper {
+                            p {
+                                color: #030303;
+                            }
+
+                            span {
+                                background: $pink;
+                                color: $white;
+                                font-size: 8px;
+                                font-weight: bold;
+                                padding: 3px 6px 1px;
+                                border-radius: 20px;
+                                text-transform: uppercase;
+                                display: block;
+                                width: max-content;
+                            }
+                        }
+                    }
+
+                    .button-wrapper {
+                        height: 100%;
+                        flex: 0 0 auto;
+
+                        button {
+                            cursor: pointer;
+                            background: transparent;
+                            border: none;
+                            display: flex;
+                            margin: 0;
+                            padding: 0;
+                        }
+                    }
+                }
+            }
+        }
+    }
+
+    .modulo-canais-comp {
+        .wrapper-canais {
+            ul {
+                li {
+                    .footer-canal {
+                        .text-wrapper {
+                            p {
+                                color: #030303;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+
+    /*== Componentes ==*/
+    .menu-button-wrap {
+        .menu-button {
+            background: rgba(#dbdbdb, 0.3);
+        }
+    }
+
+    .context-menu-list {
+        box-shadow: 0px 3px 5px rgba(0, 0, 0, 0.15);
+        border: 1px solid #ddd;
+
+        ul {
+            background: #fff;
+
+            li {
+                border-bottom: 1px solid #ddd;
+
+                a {
+                    &:hover {
+                        background: #e2e2e2;
+                    }
+
+                    .icon-mono {
+                        path {
+                            fill: #606060 !important;
+                        }
+                    }
+
+                    span {
+                        color: #606060;
+                    }
+                }
+
+            }
+        }
+
+        .inv-modal {
+            position: fixed;
+            width: 100%;
+            height: 100%;
+            left: 0;
+            right: 0;
+            top: 0;
+            z-index: -1;
+            display: none;
+
+            &.open {
+                display: block;
+            }
+        }
+    }
+
+    .glider-next,
+    .glider-prev {
+        background: #fff;
+        box-shadow: -1px 0px 5px rgba(0, 0, 0, 0.309523);
+
+        svg {
+            path {
+                fill: #030303;
+            }
+        }
+    }
+
+    /* Track */
+    .scrollhere,
+    .scrollola {
+
+        scrollbar-color: #cacaca #F4F4F4;
+        scrollbar-width: thin;
+
+        &::-webkit-scrollbar-track {
+            background: #EEE3F6;
+            border-radius: 5px;
+        }
+
+        &::-webkit-scrollbar {
+            width: 9px;
+            height: 9px;
+            scroll-behavior: smooth;
+        }
+
+        &::-webkit-scrollbar-track {
+            background: transparent;
+            border-radius: 5px;
+        }
+
+        &::-webkit-scrollbar-track:hover {
+            background: #F4F4F4;
+            border-radius: 5px;
+        }
+
+        /* Handle */
+        &::-webkit-scrollbar-thumb {
+            background: #dbdbdb;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+
+        /* Handle on hover */
+        &::-webkit-scrollbar-thumb:hover {
+            background: #cacaca;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+    }
+
+    .content-container {
+        section {
+            .module-title {
+                h3 {
+                    padding: 20px 0 5px;
+                    color: #000;
+                }
+
+                p {
+                    color: #606060;
+                }
+
+                a {
+                    span {
+                        color: #313131;
+                    }
+                }
+            }
+
+            p {
+                color: #606060;
+            }
+        }
+
+        h5 {
+            color: #000;
+        }
+
+        .menu-button {
+            svg {
+                rect {
+                    fill: #606060;
+                }
+            }
+        }
+
+        .modulo-miniplayer {
+            .wrapper-miniplayer {
+                ul {
+                    li {
+                        .episode-card {
+                            .player-cont {
+                                .epi-name {
+                                    color: #313131;
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+
+    .footer-player {
+        background: #fff;
+        box-shadow: 0px -5px 19px rgba(#fff, 0.25);
+
+        .wrapper-player {
+            .contentinfo {
+                .info-box {
+                    .episode-name {
+                        color: #030303;
+
+                        a {
+                            color: #030303;
+                        }
+                    }
+
+                    .pod-name {
+                        a {
+                            color: #606060;
+                        }
+                    }
+                }
+            }
+
+            .players-controls {
+                .player-controls__buttons {
+
+                    .player-prev-button,
+                    .player-prev-10-button,
+                    .play,
+                    .player-next-30-button,
+                    .player-next-button,
+                    .exit {
+                        svg {
+                            path {
+                                fill: #606060;
+                            }
+                        }
+                    }
+                }
+
+                .players-bar-slider {
+                    .progress-bar-time {
+                        color: #606060;
+                    }
+
+                    .progress-bar {
+                        .progress-bar_bg {
+                            opacity: 0.25;
+                        }
+                    }
+                }
+            }
+        }
+
+        svg {
+            path {
+                fill: #606060;
+            }
+        }
+    }
+
+    .nowplaying {
+        background: #fff;
+
+        &.shrink {
+            background: #fafafa;
+        }
+
+        svg {
+
+            path,
+            rect {
+                fill: #606060;
+            }
+        }
+
+        .header {
+            .menu-option {
+                svg {
+
+                    path,
+                    rect {
+                        fill: #606060;
+                    }
+                }
+            }
+        }
+
+        .player-box {
+            .info-box {
+                .episode-name {
+                    color: #030303;
+                }
+
+                .pod-name {
+                    color: #606060;
+                }
+            }
+
+            .players-controls {
+                .player-controls__buttons {
+
+                    .player-prev-button,
+                    .player-prev-10-button,
+                    .play,
+                    .player-next-30-button,
+                    .player-next-button,
+                    .exit {
+                        svg {
+                            path {
+                                fill: #606060;
+                            }
+                        }
+
+                        &.disabled {
+                            cursor: default;
+                            opacity: 0.25;
+                        }
+                    }
+                }
+
+                .players-bar-slider {
+                    .progress-bar-time {
+                        color: #606060;
+                    }
+
+                    .progress-bar {
+                        .progress-bar_bg {
+                            opacity: 0.25;
+                        }
+                    }
+                }
+            }
+        }
+    }
+
+    .fila-sidebar {
+        background: #f2f2f2;
+
+        &.grow {
+            background: #ffffff;
+        }
+
+        .header-fila {
+            .wrapp-header {}
+
+            span {
+                color: #030303;
+                font-weight: 600;
+            }
+        }
+
+        svg {
+
+            path,
+            rect {
+                fill: #606060
+            }
+        }
+
+        .tabs-playlist {
+
+            .epi-tabs,
+            .queue-tabs {
+                border-bottom: 2px solid rgba(#434343, 0.25);
+                color: #606060;
+
+                &.active {
+                    span {
+                        color: #030303;
+                    }
+                }
+            }
+        }
+
+        .list-epis {
+            ul {
+                h3 {
+                    color: #030303;
+                }
+
+                li {
+                    &.aseguir-epi {
+                        border-color: #dbdbdb;
+                    }
+
+                    .text-box {
+                        .epi-name {
+                            color: #030303;
+                        }
+
+                        span {
+                            svg {
+                                path {
+                                    fill: #fff;
+                                }
+                            }
+                        }
+
+                        .pod-name-box {
+                            color: #606060;
+
+                            .podname {
+                                color: #a2a2a2;
+
+                                @include respond-to-min(750) {
+                                    color: #606060;
+                                }
+                            }
+                        }
+                    }
+
+                    .menu-button {
+                        background: rgba(#dbdbdb, 0.3);
+
+                        svg {
+
+                            path,
+                            rect {
+                                fill: #606060
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+
+    //== Blog
+    .blog-loop {
+        .module-title {
+            h2 {
+                color: $text-primary;
+            }
+
+            p {
+                color: $text-secondary;
+            }
+        }
+
+        .loop {
+
+            article {
+                .wrap-post {
+                    background: #f4f4f4;
+
+                    .content-box {
+                        .title {
+                            color: $text-primary;
+
+                            a {
+                                color: $text-primary;
+                            }
+                        }
+
+                        .intro {
+                            color: $text-secondary;
+                        }
+                    }
+                }
+
+            }
+        }
+
+    }
+
+    &.single-post {
+        .wrap-blog {}
+
+        .header-blog-control {
+            background: #f2f2f2;
+            border-bottom: 1px solid #efefef;
+        }
+
+        .loop {
+            article {
+                .wrap-post {
+                    .author-box {
+                        .thumb-author {
+                            border-color: #f2f2f2;
+                            box-shadow: 0px 4px 4px rgba(71, 69, 69, 0.25);
+
+                            img {}
+                        }
+
+                        .author-name {}
+
+                        .date {}
+                    }
+
+                    .content-box {
+                        .socials-bar {
+                            a {}
+                        }
+
+                        .article-body {
+                            .headerPost {
+                                h1 {
+                                    color: $text-primary;
+                                }
+
+                                h4 {
+                                    color: $text-secondary;
+                                }
+                            }
+
+                            .content-body {
+                                p {
+                                    color: $text-primary;
+                                }
+
+                                blockquote {
+                                    color: $text-secondary;
+                                    background: url(../img/comma-white.png) no-repeat;
+                                    background-position: center 85%;
+
+                                    &::before {
+                                        background: #d8d8d8;
+                                    }
+
+                                    &::after {
+                                        background: #d8d8d8;
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+
+        .recents-box {
+            background: #f2f2f2;
+
+            .title {
+                color: $text-primary;
+            }
+
+            .wrap-post-recent {
+                article {
+                    background: #fff;
+
+                    .header-card {
+                        h5 {
+                            color: $text-secondary;
+                        }
+                    }
+
+                    .thumb-cover {
+                        img {}
+                    }
+
+                    .title-box {
+                        h4 {
+                            color: $text-primary;
+                        }
+
+                        .date {}
+                    }
+                }
+            }
+        }
+    }
+
+    //Canail
+
+    .hero-canal {
+        .wrap-hero {
+            .thumb-container {}
+
+            .container-text {
+                h2 {
+                    color: $text-primary !important;
+                }
+
+                .infos-container {
+                    .inscritos {
+                        color: $text-primary !important;
+                    }
+
+                    .episodios {
+                        color: $text-secondary !important;
+                    }
+                }
+
+                .avaliacoes-hero {
+                    .svg-box {
+                        svg {
+                            path {
+                                fill: #606060 !important;
+                            }
+
+                            &.checked {
+                                path {
+                                    fill: #FF005A !important;
+                                }
+                            }
+                        }
+
+                        &>svg {
+
+                            &:hover,
+                            &:hover~svg {
+                                path {
+                                    fill: #FF005A !important;
+                                    stroke: #CF215E !important;
+                                    stroke-width: 0px !important;
+                                }
+                            }
+                        }
+                    }
+
+                    a {
+                        color: $text-primary !important;
+
+                    }
+                }
+
+                .intro {
+                    p {
+                        color: $text-secondary !important;
+                    }
+
+                }
+
+                .host-intro {
+                    .host-box {
+                        .text-box {
+                            h5 {
+                                color: $text-primary !important;
+                            }
+
+                            p {
+                                color: $text-secondary !important;
+                            }
+                        }
+                    }
+
+                }
+
+                .list-actions {
+                    ul {
+                        li {
+                            &.btn-list{
+                                .first{
+                                    color: $text-secondary;
+                                }
+                            }
+
+                            &.avaliacoes,
+                            &.share {
+                                svg {
+                                    path {
+                                        fill: $text-secondary !important;
+                                    }
+                                }
+
+                                a {
+                                    color: $text-secondary !important;
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+
+        .bg-original {
+            .mask {
+                background: linear-gradient(180.05deg, rgba(24, 24, 24, 0) 69.43%, #fafafa 90.31%) !important;
+
+                @include respond-to-min(750) {
+                    background: linear-gradient(180.05deg, rgba(24, 24, 24, 0) 40.43%, #fafafa 90.31%) !important;
+                }
+            }
+        }
+    }
+
+    .tabnavbar {
+        ul {
+            li {
+                color: $text-secondary !important;
+                border-bottom: 2px solid #DBDBDB !important;
+
+                &.active,
+                &:hover {
+                    border-color: #FF005A !important;
+                    color: $text-primary !important;
+                }
+
+                &.disabled {
+                    color: #DBDBDB !important;
+
+                    &:hover {
+                        cursor: default;
+                        color: #DBDBDB !important;
+                        border-bottom: 2px solid #DBDBDB !important;
+                    }
+                }
+            }
+        }
+    }
+    .tab-episodes{
+        .last-epi{
+            .epi-card{
+                .wrap-epi{
+                    .container-infos{
+                        .text-cont{
+                            h3{
+                                color: $text-primary !important;
+                            }
+                            p{
+                                color: $text-secondary !important;
+
+                            }
+                        }
+                        .actions{
+                            ul{
+                                li{
+                                    &.link{
+                                        color: $text-primary !important;
+                                        a{
+                                            color: $text-primary !important;
+                                            &:hover{
+                                                text-decoration: underline !important;
+                                            }
+
+                                        }
+                                    }
+                                    &.menu-button-li{
+                                    }
+                                    button{
+                                        svg{
+                                            rect{
+                                                fill: transparent;
+                                            }
+                                            path{
+                                                fill: $text-secondary !important;
+                                            }
+                                        }
+                                        span{
+                                            color: $text-secondary !important;
+                                        }
+                                        &.active,
+                                        &:active{
+                                            svg{
+                                                path{
+                                                    fill: #59A6F8 !important;
+                                                }
+                                            }
+                                            span{
+                                                color: #59A6F8 !important;
+                                            }
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+            .baixe-agora-widget{
+                .widget-box{
+                    background: #DBDBDB !important;
+                }
+                h5{
+                    color: $text-primary !important;
+                }
+                p{
+                    color: $text-secondary !important;
+                }
+            }
+        }
+        .list-epi-container{
+            h3{
+                color: $text-primary;
+            }
+            .nav-header{
+                form{
+                    input[type=text]{
+                        background: #FAFAFA !important;
+                        box-shadow: inset 0px 4px 21px rgba(0, 0, 0, 0.05) !important;
+                        color: $text-primary !important;
+                        &::placeholder{                        
+                            
+                            color: #606060 !important;
+                        }
+                        &:focus{
+                            &::placeholder{
+                                color: transparent;
+                            }
+                        }
+                    }
+                    button{
+                        svg{
+                            path{
+                                fill: #606060;
+                            }
+                        }
+                    }
+                }
+                .actions-box{
+                    button{
+                        color: $text-secondary !important;
+                        
+                        svg{
+                            rect,
+                            circle{
+                                fill: #606060;
+                            }
+                        }
+
+                    }
+                    .order{
+                        ul{
+                            li{
+                                &:first-child{
+                                    &:after{
+                                    }
+                                }
+                                &:after{
+                                    background: $text-secondary !important;
+                                }
+                                button{
+                                    svg{
+                                        rect{
+                                            fill: $text-secondary !important;
+                                        }
+                                    }
+                                    &.active{
+                                        svg{
+                                            rect{
+                                                fill: #FF005A !important;
+                                            }
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+            .list-episodes{
+                .wrapper-episodios{
+                    ul{
+                        .item{
+                        }
+
+                        &.list-view{
+                            .item{
+                                border-top: 1px solid #1f1f1f;
+                                &:hover{
+                                    background: #1F1F1F;
+                                }
+                                .cta-player{
+                                }
+                                .text-wrapper{
+                                }
+                                .footer-episodio{
+                                    .little-thumb{
+                                    }
+
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+    .tab-overview{
+        .sobre-section{
+            .wrap-sobre{
+                .text-cont{
+                    h3{
+                        color: $text-primary !important;
+                    }
+                    p{
+                        color: $text-secondary !important;
+                    }
+                    .actions{
+                        .transp{
+                            color: $text-primary !important;
+                        }
+                        .infos{
+                            span{
+                                color: $text-secondary !important;
+                                &:last-child{
+                                    color: $text-secondary !important;
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+            .wrap-host{
+                .host-box{
+                    .header{
+                        .thumb{
+                        }
+                        .text-info{
+                        }
+                        .btn{
+                        }
+                    }
+                }
+            }
+        }
+        .last-epi{
+            .epi-card{
+                .wrap-epi{
+                    .thumb-epi{
+                    }
+                    .container-infos{
+                        .text-cont{
+                            h3{
+                                color: $text-primary !important;
+                            }
+                            p{
+                                color: $text-secondary !important;
+
+                            }
+                        }
+                        .actions{
+                            ul{
+                                li{
+                                    &.link{
+                                        color: $text-primary !important;
+                                        a{
+                                            color: $text-primary !important;
+
+                                        }
+                                    }
+                                    &.menu-button-li{
+                                    }
+                                    button{
+                                        svg{
+                                            path{
+                                                fill: $text-secondary !important;
+                                            }
+                                        }
+                                        span{
+                                        }
+                                        &.active,
+                                        &:active{
+                                            svg{
+                                                path{
+                                                    fill: #59A6F8 !important;
+                                                }
+                                            }
+                                            span{
+                                                color: #59A6F8 !important;
+                                            }
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+            .baixe-agora-widget{
+                .widget-box{
+                    background: #DBDBDB !important;
+                }
+                h5{
+                    color: $text-primary !important;
+                }
+                p{
+                    color: $text-secondary !important;
+                }
+            }
+        }
+        .list-epi-container{
+            h3{
+                color: $text-primary !important;
+            }
+            .nav-header{
+                form{
+                    input[type=text]{
+                        background: #FAFAFA !important;
+                        box-shadow: inset 0px 4px 21px rgba(0, 0, 0, 0.05) !important;
+                        color: $text-primary !important;
+                        &::placeholder{         
+                            color: #606060 !important;
+                        }
+                        &:focus{
+                            &::placeholder{
+                                color: transparent;
+                            }
+                        }
+                    }
+                    button{
+                        svg{
+                            path{
+                                fill: #606060;
+                            }
+                        }
+                    }
+                }
+                .actions-box{
+                    button{
+                        color: $text-secondary !important;
+                        svg{
+                            rect,
+                            circle{
+                                fill: #606060;
+                            }
+                        }
+
+                    }
+                    .order{
+                        ul{
+                            li{
+                                &:first-child{
+                                    &:after{
+                                    }
+                                }
+                                &:after{
+                                    background: $text-secondary !important;
+                                }
+                                button{
+                                    svg{
+                                        rect{
+                                            fill: $text-secondary !important;
+                                        }
+                                    }
+                                    &.active{
+                                        svg{
+                                            rect{
+                                                fill: #FF005A !important;
+                                            }
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+            .list-episodes{
+                .wrapper-episodios{
+                    ul{
+                        .item{
+                        }
+
+                        &.list-view{
+                            .item{
+                                border-top: 1px solid #e2e2e2 !important;
+                                &:hover{
+                                    background: #e2e2e2 !important;
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+    .tab-sobre{
+        .wrap-sobre{
+            .thumb{
+            }
+            .text-cont{
+                h3{
+                    color: $text-primary !important;
+                }
+                p{
+                    color: $text-secondary !important;
+                }
+                .actions{
+                    .transp{
+                        color: $text-primary !important;
+                    }
+                    .infos{
+                        span{
+                            color: $text-primary !important;
+                            &:last-child{
+                                color: $text-secondary !important;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+    .tab-playlist{
+        .wrapper-miniplayer{
+            ul{
+                li{
+                    .episode-card{
+                        .thumb{
+                        }
+                        .player-cont{
+                        }
+                        .menu-button-wrap{
+
+                        }
+                    }
+                }
+            }
+        }
+        .playlist-epi{
+            .wrapper-episodios{
+                ul{
+                    .item{
+                    }
+                }
+            }
+            .small-service-widget{
+                .wrap-widgets{
+
+                    .widget-box{
+                        .wrap-box{
+                        }
+                        &.style4{
+                            h5{
+                            }
+                            p{
+                            }
+                            .btn-box{
+                                a{
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+        
+        .recomendados{
+            .wrapper-canais{
+                .wrap-epis{
+                    ul{
+                        li{
+                            &.original{
+                                
+                                .title-canal{
+                                    .text-wrapper{
+                                        span{
+                                        }
+                                    }
+                                }
+                            }
+                            .title-canal{
+                                .text-wrapper{
+                                    p{
+                                    }
+                                    span{
+                                    }
+                                    .title{
+                                        p{
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+
+        }
+    }
+    .tab-comments{
+        .wrap-comments{
+            .field-comments{
+                .avaliacoes{
+                    p{
+                        color: $text-primary !important;
+                    }
+                    
+                    .svg-box{
+                        svg{
+                            cursor: pointer;
+                            path{
+                                fill: #606060 !important;
+                            }
+                            
+                            &.checked{
+                                path{
+                                    fill: #473a3f !important;
+                                }
+                            }
+                        }
+                        & > svg{
+                            &:hover,
+                            &:hover ~ svg{
+                                path{
+                                    fill: #FF005A !important;
+                                    stroke: #CF215E !important;
+                                    stroke-width: 0 !important;
+                                }
+                            }
+                        }
+                    }
+                }
+                form{
+                    textarea{
+                        color: $text-primary !important;
+                        background: #eaeaea !important;
+                        box-shadow: inset 0px 4px 21px rgba(0, 0, 0, 0.05) !important;
+                    }
+                    .btn{
+                    }
+                }
+            }
+
+            .comments-timeline{
+                article{
+                    .header-comment{
+                        .thumb-img{
+                        }
+                        .text-cont{
+                            h5{
+                                color: $text-primary !important;
+                            }
+                            p{
+                                color: $text-secondary !important;
+                            }
+                        }
+                        .avaliacoes{
+                            .svg-box{
+                                svg{
+                                    cursor: pointer;
+                                    path{
+                                        fill: #606060 !important;
+                                    }
+                                    
+                                    &.checked{
+                                        path{
+                                            fill: #FF005A !important;
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                    }
+                    .text-comment{
+                        p{
+                            color: $text-secondary !important;
+
+                        }
+                    }
+                }
+            }
+        }
+    }
+    .tab-alos{
+        .wrap-alos{
+            .alos{ 
+                .img-container{
+                    .border-wrap{
+                        border: 2px solid #E5813F;
+                        &.gray{
+                            border-color: #4A4A49;
+                        }
+                    }
+                    .img-wrapper{
+                        img{
+                        }
+                    }
+                }
+                .text-box{
+                    background: #e2e2e2 !important;
+                    .info{
+                        h5{
+                        }
+                        p{
+                        }
+                    }
+                }
+            }
+        }
+    }
+    .tab-host{
+        .wrap-host{
+            .host-box{
+                .header{
+                    .thumb{
+                    }
+                    .text-info{
+                        h5{
+                        }
+                        p{
+                        }
+                    }
+                    .btn{
+                    }
+                }
+                .content-info{
+                    p{
+                        color: $text-secondary !important;
+                    }
+                }
+                .canais-info-footer{
+                    h5{
+
+                    }
+                    .canais{
+                        a{
+                        }
+                        img{
+                        }
+                    }
+                }
+            }
+        }
+    }
+
+
+    &.original {
+        .hero-canal {
+            @include respond-to-min(750) {
+                padding-top: 313px;
+            }
+
+            .thumb-container {
+                margin-bottom: 85px;
+
+                @include respond-to-min(750) {
+                    max-width: 166px;
+                    margin-bottom: 0;
+                }
+
+                @include respond-to-min(1100) {
+                    max-width: 177px;
+                }
+            }
+
+            .container-text {
+                @include respond-to-min(750) {
+                    min-height: auto;
+                }
+
+                .title-canal {
+                    @include respond-to-min(750) {
+                        font-size: 45px;
+                    }
+                }
+
+                .infos-container {
+                    .selos {}
+
+                    .inscritos {
+                        color: $text-primary;
+                    }
+
+                    .episodios {
+                        color: $text-primary;
+                    }
+                }
+
+                .list-actions {
+                    ul {
+
+                        .avaliacoes,
+                        .share {
+                            margin-left: 4px;
+
+                            svg {
+                                path {
+                                    fill: $text-primary;
+                                }
+                            }
+
+                            span {
+                                display: none;
+                            }
+                        }
+
+                        li.btn-list {
+                            .btn {
+                                &.first {
+                                    @include respond-to-min(750) {
+                                        background: #214EE3;
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+
+            }
+        }
+
+        .wrap-hero {
+            .thumb-container {
+                opacity: 0;
+
+                @include respond-to-min(750) {
+                    opacity: 1;
+                }
+            }
+        }
+    }
+}
+
+body {
+    &.light-mode {
+        scrollbar-color: #cacaca #F4F4F4;
+        scrollbar-width: thin;
+
+        &::-webkit-scrollbar-track {
+            background: #EEE3F6;
+            border-radius: 5px;
+        }
+
+        &::-webkit-scrollbar {
+            width: 9px;
+            height: 9px;
+            scroll-behavior: smooth;
+        }
+
+        &::-webkit-scrollbar-track {
+            background: transparent;
+            border-radius: 5px;
+        }
+
+        &::-webkit-scrollbar-track:hover {
+            background: #F4F4F4;
+            border-radius: 5px;
+        }
+
+        /* Handle */
+        &::-webkit-scrollbar-thumb {
+            background: #dbdbdb;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+
+        /* Handle on hover */
+        &::-webkit-scrollbar-thumb:hover {
+            background: #cacaca;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+    }
+}
