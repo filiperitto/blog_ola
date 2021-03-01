@@ -94,7 +94,7 @@
         </div>
         <div class="component-box">
             <div class="topbar-action">
-                <a href="https://www.olapodcasts.com" class="btn desktop-view"> Experimente o Premium</a>
+                <a href="https://www.olapodcasts.com" class="btn desktop-view">Inscreva-se na Newsletter</a>
 
             </div>
 
