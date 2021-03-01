@@ -90,7 +90,6 @@ WP/wp-includes/*
 WP/wp-content/plugins*
 WP/wp-content/upload*
 WP/wp-content/languages*
-!WP/wp-content/themes/blog_ola
 WP/wp-content/themes/index.php
 WP/wp-cron.php
 WP/wp-links-opml.php
@@ -110,3 +109,4 @@ WP/wp-activate.php
 WP/readme.html
 WP/license.txt
 WP/index.php
+!WP/wp-content/themes/blog_ola
