@@ -43,7 +43,7 @@
 
                             <div class="content-box">
                                 <div class="socials-bar">
-                                    <a href="javascript:void(0)">
+                                    <a target="_blank" href="https://twitter.com/share?ref_src=twsrc%5Etfw">
                                         <svg width="22" height="25" viewBox="0 0 22 25" fill="none"
                                             xmlns="http://www.w3.org/2000/svg">
                                             <path
@@ -51,7 +51,7 @@
                                                 fill="#949494" />
                                         </svg>
                                     </a>
-                                    <a href="javascript:void(0)">
+                                    <a target="_blank" href="https://www.facebook.com/sharer/sharer.php?u=<?php the_permalink(); ?>&amp;src=sdkpreparse">
                                         <svg width="21" height="25" viewBox="0 0 21 25" fill="none"
                                             xmlns="http://www.w3.org/2000/svg">
                                             <path
@@ -59,7 +59,7 @@
                                                 fill="#949494" />
                                         </svg>
                                     </a>
-                                    <a href="javascript:void(0)">
+                                    <a target="_blank" href="http://www.linkedin.com/shareArticle?mini=true&url=<?php the_permalink(); ?>&title=<?php the_title() ?>">
                                         <svg width="22" height="26" viewBox="0 0 22 26" fill="none"
                                             xmlns="http://www.w3.org/2000/svg">
                                             <path
@@ -67,7 +67,7 @@
                                                 fill="#949494" />
                                         </svg>
                                     </a>
-                                    <a href="javascript:void(0)">
+                                    <a target="_blank" href="https://web.whatsapp.com/send?text=<?php the_title() ?> | <?php the_permalink(); ?>">
                                         <svg width="21" height="25" viewBox="0 0 21 25" fill="none"
                                             xmlns="http://www.w3.org/2000/svg">
                                             <path

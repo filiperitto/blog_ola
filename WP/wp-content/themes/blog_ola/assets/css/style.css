@@ -3827,11 +3827,27 @@ body::-webkit-scrollbar-thumb:hover,
 footer {
   width: 100%;
   height: auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
 }
 
 footer P {
-  margin: auto;
   padding: 23px;
+}
+
+footer .links {
+  padding: 23px;
+}
+
+footer .links a {
+  color: #fff;
 }
 
 @media only screen and (min-width: 600px) {
@@ -8341,9 +8357,9 @@ body #novos-canais,
 
 .header-blog-control a {
   color: #a5a5a5;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
+  display: -webkit-inline-box;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;

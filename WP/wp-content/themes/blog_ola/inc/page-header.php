@@ -93,8 +93,8 @@
             </div>
         </div>
         <div class="component-box">
-            <div class="topbar-action">
-                <a href="https://www.olapodcasts.com" class="btn desktop-view">Inscreva-se na Newsletter</a>
+            <div class="topbar-action menu-item">
+                <a href="#newsletter" class="btn desktop-view">Inscreva-se na Newsletter</a>
 
             </div>
 
