@@ -9,7 +9,9 @@
 <article>
     <div class="wrap-post">
         <div class="thumb">
+            <a href="<?php the_permalink(); ?>">
             <?php echo the_post_thumbnail('home-thumbnails')?>
+            </a>
         </div>
         <div class="content-box">
             <div class="data-tag">
